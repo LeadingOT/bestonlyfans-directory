@@ -13,7 +13,7 @@ const listings = defineCollection({
     url: z.string().url(),
     logo: z.string().optional(),
     pricing: z.object({
-      model: z.enum(['free', 'freemium', 'paid', 'enterprise', 'open-source']),
+      model: z.enum(['free', 'freemium', 'paid', 'enterprise', 'open-source', 'subscription']),
       startingPrice: z.string().optional(),
     }),
     features: z.array(z.string()),
