@@ -1,0 +1,37 @@
+{
+  "name": "RPGPrincessLuna",
+  "slug": "rpgprincessluna",
+  "tagline": "RPG walkthroughs and character builds",
+  "description": "Luna specializes in RPG content with detailed walkthroughs, optimal character builds, and lore discussions. A must-follow for RPG enthusiasts.",
+  "category": "Gaming",
+  "subcategory": "RPG",
+  "url": "https://onlyfans.com/rpgprincessluna",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$9.99/mo"
+  },
+  "features": [
+    "Complete walkthroughs",
+    "Character build guides",
+    "Lore videos",
+    "Easter egg hunts",
+    "Modding tutorials"
+  ],
+  "pros": [
+    "Comprehensive guides",
+    "Passionate about RPGs",
+    "Great for completionists"
+  ],
+  "cons": [
+    "Specific genre only",
+    "Long-form content"
+  ],
+  "rating": 4.7,
+  "tags": [
+    "gaming",
+    "rpg",
+    "walkthroughs",
+    "strategy"
+  ],
+  "lastUpdated": "2026-02-25"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "LuxeLifeNina",
+  "slug": "luxelifenina",
+  "tagline": "Luxury lifestyle, travel and fashion",
+  "description": "Nina shares her glamorous lifestyle with exclusive travel vlogs, luxury hauls, and fashion lookbooks. Experience high-end living through her eyes.",
+  "category": "Lifestyle",
+  "subcategory": "Luxury",
+  "url": "https://onlyfans.com/luxelifenina",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$19.99/mo"
+  },
+  "features": [
+    "Luxury travel vlogs",
+    "Designer hauls",
+    "Fashion lookbooks",
+    "Shopping tips",
+    "Exclusive events"
+  ],
+  "pros": [
+    "High production quality",
+    "Aspirational content",
+    "Unique experiences"
+  ],
+  "cons": [
+    "Premium pricing",
+    "Less relatable"
+  ],
+  "rating": 4.5,
+  "tags": [
+    "lifestyle",
+    "luxury",
+    "travel",
+    "fashion"
+  ],
+  "lastUpdated": "2026-02-25"
+}

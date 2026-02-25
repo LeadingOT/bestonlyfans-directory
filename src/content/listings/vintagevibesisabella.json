@@ -1,0 +1,37 @@
+{
+  "name": "VintageVibesIsabella",
+  "slug": "vintagevibesisabella",
+  "tagline": "Vintage fashion and thrift finds",
+  "description": "Isabella celebrates vintage fashion with thrift hauls, retro styling, and sustainable fashion choices. Discover timeless pieces and unique finds.",
+  "category": "Fashion",
+  "subcategory": "Vintage",
+  "url": "https://onlyfans.com/vintagevibesisabella",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$7.99/mo"
+  },
+  "features": [
+    "Thrift hauls",
+    "Vintage styling",
+    "Era guides",
+    "Sustainable tips",
+    "Restoration videos"
+  ],
+  "pros": [
+    "Unique content",
+    "Sustainable focus",
+    "Affordable"
+  ],
+  "cons": [
+    "Niche aesthetic",
+    "Limited modern trends"
+  ],
+  "rating": 4.5,
+  "tags": [
+    "fashion",
+    "vintage",
+    "thrift",
+    "sustainable"
+  ],
+  "lastUpdated": "2026-02-25"
+}

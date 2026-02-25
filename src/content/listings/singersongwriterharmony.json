@@ -1,0 +1,37 @@
+{
+  "name": "SingerSongwriterHarmony",
+  "slug": "singersongwriterharmony",
+  "tagline": "Original music, covers and behind-the-scenes",
+  "description": "Harmony shares her musical journey with original songs, acoustic covers, and songwriting process videos. Experience music creation from start to finish.",
+  "category": "Music",
+  "subcategory": "Singer-Songwriter",
+  "url": "https://onlyfans.com/singersongwriterharmony",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$9.99/mo"
+  },
+  "features": [
+    "Original songs",
+    "Acoustic covers",
+    "Songwriting process",
+    "Lyrics breakdown",
+    "Live sessions"
+  ],
+  "pros": [
+    "Talented musician",
+    "Personal connection",
+    "Exclusive releases"
+  ],
+  "cons": [
+    "Music-specific",
+    "Variable upload schedule"
+  ],
+  "rating": 4.6,
+  "tags": [
+    "music",
+    "singer",
+    "songwriter",
+    "original"
+  ],
+  "lastUpdated": "2026-02-25"
+}

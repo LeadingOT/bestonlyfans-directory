@@ -1,0 +1,37 @@
+{
+  "name": "VeganBabeOlivia",
+  "slug": "veganbabeolivia",
+  "tagline": "Plant-based lifestyle and vegan recipes",
+  "description": "Olivia promotes a sustainable vegan lifestyle with delicious recipes, shopping guides, and wellness tips. Make the transition to plant-based living easier.",
+  "category": "Lifestyle",
+  "subcategory": "Vegan",
+  "url": "https://onlyfans.com/veganbabeolivia",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$5.99/mo"
+  },
+  "features": [
+    "Vegan recipes",
+    "Meal prep videos",
+    "Product reviews",
+    "Sustainability tips",
+    "Q&A sessions"
+  ],
+  "pros": [
+    "Affordable",
+    "Practical advice",
+    "Engaging personality"
+  ],
+  "cons": [
+    "Niche audience",
+    "Limited non-vegan content"
+  ],
+  "rating": 4.6,
+  "tags": [
+    "lifestyle",
+    "vegan",
+    "recipes",
+    "sustainability"
+  ],
+  "lastUpdated": "2026-02-25"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "CozyGamerMia",
+  "slug": "cozygamermia",
+  "tagline": "Cozy gaming sessions and indie game reviews",
+  "description": "Mia creates relaxing gaming content featuring indie titles, simulation games, and cozy streams. Perfect for gamers who enjoy laid-back, wholesome content.",
+  "category": "Gaming",
+  "subcategory": "Casual Gaming",
+  "url": "https://onlyfans.com/cozygamermia",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$6.99/mo"
+  },
+  "features": [
+    "Indie game reviews",
+    "Relaxing streams",
+    "Game recommendations",
+    "Cozy setup tours",
+    "Chat sessions"
+  ],
+  "pros": [
+    "Relaxing atmosphere",
+    "Variety of games",
+    "Affordable"
+  ],
+  "cons": [
+    "No competitive content",
+    "Slower paced"
+  ],
+  "rating": 4.4,
+  "tags": [
+    "gaming",
+    "indie",
+    "cozy",
+    "casual"
+  ],
+  "lastUpdated": "2026-02-25"
+}

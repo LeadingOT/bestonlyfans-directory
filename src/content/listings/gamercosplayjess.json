@@ -1,0 +1,37 @@
+{
+  "name": "GamerCosplayJess",
+  "slug": "gamercosplayjess",
+  "tagline": "Video game character cosplay and props",
+  "description": "Jess specializes in video game cosplay with incredible prop building and armor crafting. See your favorite game characters come to life.",
+  "category": "Cosplay",
+  "subcategory": "Gaming",
+  "url": "https://onlyfans.com/gamercosplayjess",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$11.99/mo"
+  },
+  "features": [
+    "Game cosplays",
+    "Prop making",
+    "Armor crafting",
+    "3D printing guides",
+    "Convention vlogs"
+  ],
+  "pros": [
+    "Amazing props",
+    "Detailed builds",
+    "Gaming focus"
+  ],
+  "cons": [
+    "Specific game franchises",
+    "Long build times"
+  ],
+  "rating": 4.9,
+  "tags": [
+    "cosplay",
+    "gaming",
+    "props",
+    "armor"
+  ],
+  "lastUpdated": "2026-02-25"
+}

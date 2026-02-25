@@ -1,0 +1,37 @@
+{
+  "name": "DigitalNomadAva",
+  "slug": "digitalnomadava",
+  "tagline": "Remote work tips and travel hacking",
+  "description": "Ava teaches you how to work remotely while traveling the world. Get insider tips on travel hacking, remote job opportunities, and digital nomad essentials.",
+  "category": "Lifestyle",
+  "subcategory": "Travel",
+  "url": "https://onlyfans.com/digitalnomadava",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$13.99/mo"
+  },
+  "features": [
+    "Travel guides",
+    "Remote work tips",
+    "Budget hacking",
+    "Destination reviews",
+    "Packing guides"
+  ],
+  "pros": [
+    "Practical advice",
+    "Inspiring content",
+    "Global perspective"
+  ],
+  "cons": [
+    "Requires flexibility",
+    "Higher subscription"
+  ],
+  "rating": 4.8,
+  "tags": [
+    "lifestyle",
+    "travel",
+    "remote-work",
+    "digital-nomad"
+  ],
+  "lastUpdated": "2026-02-25"
+}

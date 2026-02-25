@@ -1,0 +1,37 @@
+{
+  "name": "ComedyQueenRachel",
+  "slug": "comedyqueenrachel",
+  "tagline": "Stand-up comedy, sketches and funny vlogs",
+  "description": "Rachel delivers laugh-out-loud comedy with stand-up clips, sketch comedy, and hilarious vlogs. Start your day with a smile.",
+  "category": "Comedy",
+  "subcategory": "Stand-up",
+  "url": "https://onlyfans.com/comedyqueenrachel",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$6.99/mo"
+  },
+  "features": [
+    "Stand-up clips",
+    "Comedy sketches",
+    "Funny vlogs",
+    "Improv videos",
+    "Roast sessions"
+  ],
+  "pros": [
+    "Genuinely funny",
+    "Affordable",
+    "Consistent content"
+  ],
+  "cons": [
+    "Humor subjective",
+    "Less visual appeal"
+  ],
+  "rating": 4.8,
+  "tags": [
+    "comedy",
+    "stand-up",
+    "sketches",
+    "humor"
+  ],
+  "lastUpdated": "2026-02-25"
+}

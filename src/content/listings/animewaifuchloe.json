@@ -1,0 +1,37 @@
+{
+  "name": "AnimeWaifuChloe",
+  "slug": "animewaifuchloe",
+  "tagline": "Anime character cosplay and waifu content",
+  "description": "Chloe brings your favorite anime waifus to life with accurate cosplays and character-accurate photoshoots. A paradise for anime fans.",
+  "category": "Cosplay",
+  "subcategory": "Anime",
+  "url": "https://onlyfans.com/animewaifuchloe",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$10.99/mo"
+  },
+  "features": [
+    "Anime cosplays",
+    "Character photoshoots",
+    "Wig styling",
+    "Makeup tutorials",
+    "Convention coverage"
+  ],
+  "pros": [
+    "Accurate cosplays",
+    "Variety of characters",
+    "Fan interaction"
+  ],
+  "cons": [
+    "Anime-specific",
+    "PPV for certain characters"
+  ],
+  "rating": 4.7,
+  "tags": [
+    "cosplay",
+    "anime",
+    "waifu",
+    "character"
+  ],
+  "lastUpdated": "2026-02-25"
+}

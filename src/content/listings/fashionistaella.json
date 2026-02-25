@@ -1,0 +1,37 @@
+{
+  "name": "FashionistaElla",
+  "slug": "fashionistaella",
+  "tagline": "Fashion trends, styling tips and outfit ideas",
+  "description": "Ella curates the latest fashion trends with styling guides, outfit lookbooks, and shopping hauls. Elevate your wardrobe with expert fashion advice.",
+  "category": "Fashion",
+  "subcategory": "Styling",
+  "url": "https://onlyfans.com/fashionistaella",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$11.99/mo"
+  },
+  "features": [
+    "Outfit lookbooks",
+    "Styling tips",
+    "Fashion hauls",
+    "Trend reports",
+    "Wardrobe essentials"
+  ],
+  "pros": [
+    "On-trend content",
+    "Practical advice",
+    "Budget options"
+  ],
+  "cons": [
+    "Trend-focused",
+    "Frequent shopping"
+  ],
+  "rating": 4.7,
+  "tags": [
+    "fashion",
+    "styling",
+    "trends",
+    "outfits"
+  ],
+  "lastUpdated": "2026-02-25"
+}

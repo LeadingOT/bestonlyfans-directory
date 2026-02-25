@@ -1,0 +1,37 @@
+{
+  "name": "FantasyArtistKira",
+  "slug": "fantasyartistkira",
+  "tagline": "Fantasy character design and worldbuilding",
+  "description": "Kira specializes in fantasy art with character designs, creature concepts, and worldbuilding illustrations. Dive into magical realms through art.",
+  "category": "Art",
+  "subcategory": "Fantasy",
+  "url": "https://onlyfans.com/fantasyartistkira",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$10.99/mo"
+  },
+  "features": [
+    "Character designs",
+    "Creature concepts",
+    "Environment art",
+    "Lore videos",
+    "Sketch requests"
+  ],
+  "pros": [
+    "Imaginative content",
+    "Detailed worldbuilding",
+    "Interactive"
+  ],
+  "cons": [
+    "Fantasy-specific",
+    "Complex techniques"
+  ],
+  "rating": 4.8,
+  "tags": [
+    "art",
+    "fantasy",
+    "character-design",
+    "worldbuilding"
+  ],
+  "lastUpdated": "2026-02-25"
+}

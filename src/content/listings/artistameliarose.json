@@ -1,0 +1,37 @@
+{
+  "name": "ArtistAmeliaRose",
+  "slug": "artistameliarose",
+  "tagline": "Digital art tutorials and commission works",
+  "description": "Amelia shares her digital art process with step-by-step tutorials, time-lapses, and exclusive commission works. Perfect for aspiring digital artists.",
+  "category": "Art",
+  "subcategory": "Digital Art",
+  "url": "https://onlyfans.com/artistameliarose",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$8.99/mo"
+  },
+  "features": [
+    "Art tutorials",
+    "Process videos",
+    "Brush packs",
+    "Commission showcases",
+    "Live art sessions"
+  ],
+  "pros": [
+    "Educational",
+    "Beautiful artwork",
+    "Helpful tutorials"
+  ],
+  "cons": [
+    "Requires art software",
+    "Technical content"
+  ],
+  "rating": 4.6,
+  "tags": [
+    "art",
+    "digital",
+    "tutorial",
+    "illustration"
+  ],
+  "lastUpdated": "2026-02-25"
+}

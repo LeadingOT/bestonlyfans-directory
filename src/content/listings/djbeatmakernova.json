@@ -1,0 +1,37 @@
+{
+  "name": "DJBeatMakerNova",
+  "slug": "djbeatmakernova",
+  "tagline": "Electronic music production and DJ sets",
+  "description": "Nova produces electronic music and shares her DJ sets, production tutorials, and music theory lessons. Learn to make beats and mix like a pro.",
+  "category": "Music",
+  "subcategory": "Electronic",
+  "url": "https://onlyfans.com/djbeatmakernova",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$12.99/mo"
+  },
+  "features": [
+    "DJ sets",
+    "Production tutorials",
+    "Sample packs",
+    "Mixing techniques",
+    "Live streams"
+  ],
+  "pros": [
+    "Educational",
+    "High energy",
+    "Genre variety"
+  ],
+  "cons": [
+    "Requires software knowledge",
+    "Electronic focus"
+  ],
+  "rating": 4.7,
+  "tags": [
+    "music",
+    "dj",
+    "electronic",
+    "production"
+  ],
+  "lastUpdated": "2026-02-25"
+}

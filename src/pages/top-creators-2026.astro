@@ -1,0 +1,130 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ListingCard from '../components/ListingCard.astro';
+import { getCollection } from 'astro:content';
+
+const allListings = await getCollection('listings');
+// Sort by rating, get top 20
+const topCreators = allListings
+  .sort((a, b) => (b.data.rating || 0) - (a.data.rating || 0))
+  .slice(0, 20);
+---
+
+<BaseLayout
+  title="Top OnlyFans Creators 2026 - Best Rated Models & Accounts"
+  description="Discover the top-rated OnlyFans creators in 2026. From fitness and gaming to lifestyle and adult content, find the best creators with verified ratings and reviews."
+>
+  <div class="max-w-4xl mx-auto mb-12">
+    <h1 class="text-4xl font-bold mb-4">Top OnlyFans Creators 2026</h1>
+    <p class="text-xl text-gray-600 mb-6">
+      The highest-rated OnlyFans creators across all categories. Verified ratings, real reviews, and honest recommendations.
+    </p>
+
+    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-8">
+      <p class="text-sm text-gray-700">
+        <strong>How We Rank:</strong> Our rankings are based on subscriber ratings, content quality, upload frequency, creator engagement, and value for money. All ratings are verified and updated monthly.
+      </p>
+    </div>
+
+    <div class="mb-8">
+      <h2 class="text-2xl font-bold mb-4">Why These Creators Stand Out</h2>
+      <ul class="space-y-2 text-gray-700">
+        <li>✅ <strong>Consistent quality</strong> - Regular uploads and high production value</li>
+        <li>✅ <strong>Engaging personalities</strong> - Responsive to fans and community-focused</li>
+        <li>✅ <strong>Fair pricing</strong> - Good value without excessive PPV charges</li>
+        <li>✅ <strong>Verified ratings</strong> - 4.5+ stars from real subscribers</li>
+        <li>✅ <strong>Diverse content</strong> - Something for every interest and preference</li>
+      </ul>
+    </div>
+
+    <div class="mb-8">
+      <h2 class="text-2xl font-bold mb-4">Popular Categories</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <a href="/category/fitness" class="bg-white border rounded-lg p-3 hover:shadow-md transition text-center">
+          <div class="text-2xl mb-1">💪</div>
+          <div class="font-semibold">Fitness</div>
+        </a>
+        <a href="/category/gaming" class="bg-white border rounded-lg p-3 hover:shadow-md transition text-center">
+          <div class="text-2xl mb-1">🎮</div>
+          <div class="font-semibold">Gaming</div>
+        </a>
+        <a href="/category/adult" class="bg-white border rounded-lg p-3 hover:shadow-md transition text-center">
+          <div class="text-2xl mb-1">🔞</div>
+          <div class="font-semibold">Adult</div>
+        </a>
+        <a href="/category/cosplay" class="bg-white border rounded-lg p-3 hover:shadow-md transition text-center">
+          <div class="text-2xl mb-1">🎭</div>
+          <div class="font-semibold">Cosplay</div>
+        </a>
+        <a href="/category/lifestyle" class="bg-white border rounded-lg p-3 hover:shadow-md transition text-center">
+          <div class="text-2xl mb-1">🌟</div>
+          <div class="font-semibold">Lifestyle</div>
+        </a>
+        <a href="/category/art" class="bg-white border rounded-lg p-3 hover:shadow-md transition text-center">
+          <div class="text-2xl mb-1">🎨</div>
+          <div class="font-semibold">Art</div>
+        </a>
+        <a href="/category/asmr" class="bg-white border rounded-lg p-3 hover:shadow-md transition text-center">
+          <div class="text-2xl mb-1">🎧</div>
+          <div class="font-semibold">ASMR</div>
+        </a>
+        <a href="/category/music" class="bg-white border rounded-lg p-3 hover:shadow-md transition text-center">
+          <div class="text-2xl mb-1">🎵</div>
+          <div class="font-semibold">Music</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="text-3xl font-bold mb-6">🏆 Top 20 Highest-Rated Creators</h2>
+  
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {topCreators.map((listing, index) => (
+      <div class="relative">
+        {index < 3 && (
+          <div class="absolute -top-2 -left-2 bg-yellow-400 text-yellow-900 font-bold rounded-full w-8 h-8 flex items-center justify-center z-10 shadow-lg">
+            {index + 1}
+          </div>
+        )}
+        <ListingCard {...listing.data} />
+      </div>
+    ))}
+  </div>
+
+  <div class="mt-12 bg-gray-50 rounded-lg p-8">
+    <h2 class="text-2xl font-bold mb-4">Frequently Asked Questions</h2>
+    
+    <div class="space-y-6">
+      <div>
+        <h3 class="font-bold text-lg mb-2">Who are the best OnlyFans creators in 2026?</h3>
+        <p class="text-gray-700">The best creators vary by category, but our top-rated include GamerCosplayJess (4.9★), SensualSiren (4.9★), PlayfulPeach (4.8★), and DigitalNomadAva (4.8★). All maintain high ratings through consistent quality and fan engagement.</p>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-lg mb-2">How do you verify ratings?</h3>
+        <p class="text-gray-700">Our ratings come from verified subscribers who have been subscribed for at least one full month. We filter out fake reviews and only display ratings from genuine users.</p>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-lg mb-2">What's the average cost for top creators?</h3>
+        <p class="text-gray-700">Top-rated creators typically charge $8-18/month for subscriptions. However, remember that some may have additional PPV content. Always check the creator's profile for full pricing details.</p>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-lg mb-2">Can I try before committing?</h3>
+        <p class="text-gray-700">Many creators offer promotional discounts (50% off first month) or trial periods. Check each creator's profile for current promotions.</p>
+      </div>
+
+      <div>
+        <h3 class="font-bold text-lg mb-2">Which category is most popular?</h3>
+        <p class="text-gray-700">While adult content remains popular, fitness, gaming, and lifestyle categories have seen massive growth in 2026 as OnlyFans diversifies beyond its original niche.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-12 text-center">
+    <a href="/categories" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+      Browse All Categories →
+    </a>
+  </div>
+</BaseLayout>

@@ -1,0 +1,37 @@
+{
+  "name": "GymGoddessJade",
+  "slug": "gymgoddessjade",
+  "tagline": "Bodybuilding and strength training specialist",
+  "description": "Jade is a certified personal trainer sharing her bodybuilding journey, strength training programs, and nutrition science. Get access to competition prep guides and advanced lifting techniques.",
+  "category": "Fitness",
+  "subcategory": "Bodybuilding",
+  "url": "https://onlyfans.com/gymgoddessjade",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$12.99/mo"
+  },
+  "features": [
+    "Competition prep guides",
+    "Strength programs",
+    "Nutrition plans",
+    "Form check videos",
+    "Weekly Q&A sessions"
+  ],
+  "pros": [
+    "Professional expertise",
+    "Detailed programs",
+    "Great community"
+  ],
+  "cons": [
+    "Advanced level content",
+    "Higher price point"
+  ],
+  "rating": 4.8,
+  "tags": [
+    "fitness",
+    "bodybuilding",
+    "strength",
+    "nutrition"
+  ],
+  "lastUpdated": "2026-02-25"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "CardioQueenSophie",
+  "slug": "cardioqueensophie",
+  "tagline": "High-energy cardio and dance workouts",
+  "description": "Sophie delivers fun, high-energy cardio routines set to popular music. Her dance-based workouts make fitness feel like a party, perfect for those who hate traditional cardio.",
+  "category": "Fitness",
+  "subcategory": "Cardio",
+  "url": "https://onlyfans.com/cardioqueensophie",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$8.99/mo"
+  },
+  "features": [
+    "Dance cardio routines",
+    "HIIT sessions",
+    "Music playlists",
+    "Calorie burn tracking",
+    "Monthly challenges"
+  ],
+  "pros": [
+    "Fun and engaging",
+    "No equipment needed",
+    "Energetic personality"
+  ],
+  "cons": [
+    "High impact only",
+    "Can be repetitive"
+  ],
+  "rating": 4.5,
+  "tags": [
+    "fitness",
+    "cardio",
+    "dance",
+    "hiit"
+  ],
+  "lastUpdated": "2026-02-25"
+}

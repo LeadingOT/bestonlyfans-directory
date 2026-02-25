@@ -1,0 +1,37 @@
+{
+  "name": "GamerGirlAlex",
+  "slug": "gamergirlalex",
+  "tagline": "Pro gamer with exclusive gameplay and tips",
+  "description": "Alex is a professional esports player sharing exclusive gameplay, strategy guides, and behind-the-scenes content from tournaments. Get insider tips to level up your gaming skills.",
+  "category": "Gaming",
+  "subcategory": "Esports",
+  "url": "https://onlyfans.com/gamergirlalex",
+  "pricing": {
+    "model": "subscription",
+    "startingPrice": "$14.99/mo"
+  },
+  "features": [
+    "Pro gameplay videos",
+    "Strategy tutorials",
+    "Tournament insights",
+    "1-on-1 coaching",
+    "Early access content"
+  ],
+  "pros": [
+    "Professional level content",
+    "Detailed strategies",
+    "Interactive community"
+  ],
+  "cons": [
+    "Niche game focus",
+    "Higher price"
+  ],
+  "rating": 4.8,
+  "tags": [
+    "gaming",
+    "esports",
+    "strategy",
+    "competitive"
+  ],
+  "lastUpdated": "2026-02-25"
+}
