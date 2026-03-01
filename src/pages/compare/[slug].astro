@@ -1,0 +1,99 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const listings = await getCollection('listings');
+  const paths: any[] = [];
+  
+  const tools = listings.map(l => l.data);
+  
+  for (let i = 0; i < tools.length; i++) {
+    for (let j = i + 1; j < tools.length; j++) {
+      const [a, b] = [tools[i], tools[j]].sort((x, y) => x.slug.localeCompare(y.slug));
+      paths.push({
+        params: { slug: `${a.slug}-vs-${b.slug}` },
+        props: { toolA: a, toolB: b },
+      });
+    }
+  }
+  
+  return paths;
+}
+
+const { toolA, toolB } = Astro.props;
+const pageTitle = `${toolA.name} vs ${toolB.name} — Detailed Comparison 2026`;
+const pageDesc = `Compare ${toolA.name} and ${toolB.name} side by side. Features, pricing, pros & cons.`;
+
+const faqs = [
+  {
+    question: `Is ${toolA.name} better than ${toolB.name}?`,
+    answer: `${toolA.name} is rated ${toolA.rating}/5 while ${toolB.name} is rated ${toolB.rating}/5. The best choice depends on your needs.`,
+  },
+  {
+    question: `What is the price difference?`,
+    answer: `${toolA.name}: ${toolA.pricing?.startingPrice || toolA.pricing?.model || 'varies'}. ${toolB.name}: ${toolB.pricing?.startingPrice || toolB.pricing?.model || 'varies'}.`,
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+  })),
+};
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDesc}
+  canonical={`https://bestonlyfans.info/compare/${toolA.slug}-vs-${toolB.slug}`}
+  schema={faqSchema}
+>
+  <article class="max-w-4xl mx-auto px-4">
+    <div class="text-sm text-gray-500 mb-4">
+      <a href="/" class="hover:text-blue-600">Home</a> / Compare / {toolA.name} vs {toolB.name}
+    </div>
+
+    <h1 class="text-3xl font-bold mb-4">{pageTitle}</h1>
+    <p class="text-gray-600 mb-8">Side-by-side comparison to help you choose.</p>
+
+    <div class="grid md:grid-cols-2 gap-6 mb-10">
+      {[toolA, toolB].map((tool) => (
+        <div class="border rounded-lg p-5">
+          <h2 class="text-xl font-bold mb-2">{tool.name}</h2>
+          <p class="text-sm text-gray-500 mb-3">{tool.tagline || tool.description?.slice(0, 100)}</p>
+          {tool.rating && <div class="text-yellow-600 font-semibold mb-3">★ {tool.rating.toFixed(1)}/5</div>}
+          
+          {tool.pricing && (
+            <div class="mb-3">
+              <span class="text-xs font-medium uppercase text-gray-400">Pricing</span>
+              <p>{tool.pricing.startingPrice || tool.pricing.model || 'Varies'}</p>
+            </div>
+          )}
+
+          {tool.features && (
+            <div class="mb-3">
+              <span class="text-xs font-medium uppercase text-gray-400">Features</span>
+              <ul class="mt-1 space-y-1">
+                {tool.features.slice(0, 5).map((f: any) => (
+                  <li class="text-sm">✓ {typeof f === 'string' ? f : f.name || f}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          <div class="mt-4">
+            <a href={`/listing/${tool.slug}`} class="text-sm px-4 py-2 bg-gray-100 rounded hover:bg-gray-200 inline-block">View Details</a>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <FAQSection faqs={faqs} title={`${toolA.name} vs ${toolB.name} — FAQ`} />
+  </article>
+</BaseLayout>
