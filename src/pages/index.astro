@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ListingCard from '../components/ListingCard.astro';
-import AISearch from '../components/AISearch.astro';
 import { getCollection } from 'astro:content';
 
 const allListings = await getCollection('listings');
@@ -29,8 +28,6 @@ const schema = {
     </p>
   </section>
 
-  <!-- AI Search -->
-  <AISearch />
 
   <!-- Categories -->
   <section class="mb-12">
