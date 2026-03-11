@@ -13,12 +13,21 @@ const schema = {
   description: 'Discover the top OnlyFans creators, models, and content creators ranked by category',
   url: Astro.url.origin,
 };
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best OnlyFans Creators 2026",
+  "description": "Compare and review the top 30 tools in this category",
+  "numberOfItems": 30,
+  "url": "https://bestonlyfans.info"
+};
 ---
 
 <BaseLayout
   title="Best OnlyFans Creators 2026 - Top Models & Content Creators Ranked"
   description="Find the best OnlyFans creators, models, and content creators. Browse by category, pricing, and content type. Updated daily with verified accounts."
-  schema={schema}
+  schema={itemListSchema}
 >
   <!-- Hero -->
   <section class="text-center py-12">
