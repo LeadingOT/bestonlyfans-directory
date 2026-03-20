@@ -3,6 +3,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import { getCollection } from 'astro:content';
 
+export const prerender = true;
+
 export async function getStaticPaths() {
   const listings = await getCollection('listings');
   const paths: any[] = [];
@@ -47,7 +49,6 @@ const faqSchema = {
   })),
 };
 ---
-export const prerender = true;
 
 
 <BaseLayout
