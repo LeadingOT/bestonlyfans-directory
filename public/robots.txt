@@ -60,4 +60,4 @@ User-agent: ImagesiftBot
 Allow: /
 Disallow: /api/
 
-Sitemap: https://bestonlyfans.info/sitemap.xml
+Sitemap: https://bestonlyfans.info/sitemap-index.xml
