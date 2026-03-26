@@ -1,4 +1,5 @@
 ---
+import comparisonSeo from '../../data/comparison-seo.json';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import FAQSection from '../../components/FAQSection.astro';
 import { getCollection } from 'astro:content';
@@ -25,6 +26,10 @@ export async function getStaticPaths() {
 }
 
 const { toolA, toolB } = Astro.props;
+
+// SEO optimization lookup
+const slug = Astro.params.slug;
+const seoData = comparisonSeo[slug] || {};
 const pageTitle = `${toolA.name} vs ${toolB.name} — Detailed Comparison 2026`;
 const pageDesc = `Compare ${toolA.name} and ${toolB.name} side by side. Features, pricing, pros & cons.`;
 
@@ -52,8 +57,8 @@ const faqSchema = {
 
 
 <BaseLayout
-  title={pageTitle}
-  description={pageDesc}
+  title={comparison.seoTitle || pageTitle}}
+  description={comparison.seoDescription || pageDesc}}
   canonical={`https://bestonlyfans.info/compare/${toolA.slug}-vs-${toolB.slug}`}
   schema={faqSchema}
 >
