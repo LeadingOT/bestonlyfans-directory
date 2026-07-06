@@ -46,7 +46,7 @@ const canonicalURL = canonical || new URL(Astro.url.pathname, siteUrl).href;
     
     <!-- Google Analytics GA4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RM2E1Y7V6B"></script>
-    <script>
+    <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
